@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
     这是一个测试用的demo
                        DESC
-
   s.homepage         = 'https://github.com/lifangchao123/RYXTestPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
