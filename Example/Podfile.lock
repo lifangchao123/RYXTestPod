@@ -1,0 +1,16 @@
+PODS:
+  - RYXTestPod (0.1.0)
+
+DEPENDENCIES:
+  - RYXTestPod (from `../`)
+
+EXTERNAL SOURCES:
+  RYXTestPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYXTestPod: f92d739a1f072e2aa966c4c1c2e73b1f9f2766c5
+
+PODFILE CHECKSUM: 56dda5e0fac8617e4d8c05bcb90e4f08e00d4c04
+
+COCOAPODS: 1.7.5

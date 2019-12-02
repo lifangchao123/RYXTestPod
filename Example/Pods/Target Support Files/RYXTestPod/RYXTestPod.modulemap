@@ -1,0 +1,6 @@
+framework module RYXTestPod {
+  umbrella header "RYXTestPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 //
 
 #import "RYXViewController.h"
+#import "RYXTestPod/RYXLabel.h"
 
 @interface RYXViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    CGFloat labelX = ([UIScreen mainScreen].bounds.size.width - 100) * 0.5;
+    CGFloat labelY = ([UIScreen mainScreen].bounds.size.height - 100) * 0.5;
+    RYXLabel *label = [[RYXLabel alloc] initWithFrame:CGRectMake(labelX, labelY, 100, 100)];
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning
