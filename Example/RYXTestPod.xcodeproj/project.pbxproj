@@ -502,7 +502,7 @@
 				GCC_PREFIX_HEADER = "RYXTestPod/RYXTestPod-Prefix.pch";
 				INFOPLIST_FILE = "RYXTestPod/RYXTestPod-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamchaser.RYXTestPod-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamchaser.RYXTestPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -519,7 +519,7 @@
 				GCC_PREFIX_HEADER = "RYXTestPod/RYXTestPod-Prefix.pch";
 				INFOPLIST_FILE = "RYXTestPod/RYXTestPod-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dreamchaser.RYXTestPod-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamchaser.RYXTestPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

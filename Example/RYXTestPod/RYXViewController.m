@@ -19,9 +19,11 @@
 {
     [super viewDidLoad];
 	
-    CGFloat labelX = ([UIScreen mainScreen].bounds.size.width - 100) * 0.5;
+    CGFloat labelX = ([UIScreen mainScreen].bounds.size.width - 200) * 0.5;
     CGFloat labelY = ([UIScreen mainScreen].bounds.size.height - 100) * 0.5;
-    RYXLabel *label = [[RYXLabel alloc] initWithFrame:CGRectMake(labelX, labelY, 100, 100)];
+    RYXLabel *label = [[RYXLabel alloc] initWithFrame:CGRectMake(labelX, labelY, 200, 100)];
+    label.text = @"这是一个测试demo";
+    label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
 }
 
